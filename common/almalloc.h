@@ -14,9 +14,7 @@
 
 
 void al_free(void *ptr) noexcept;
-[[gnu::alloc_align(1), gnu::alloc_size(2), gnu::malloc]]
 void *al_malloc(size_t alignment, size_t size);
-[[gnu::alloc_align(1), gnu::alloc_size(2), gnu::malloc]]
 void *al_calloc(size_t alignment, size_t size);
 
 
